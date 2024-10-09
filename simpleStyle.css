@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+}
+
+li {
+    float: left;
+    font-family:'comic neue';
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #151e1d; /* Darker color */
+    margin-right: 70px; 
+li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;  
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+    background-color: whitesmoke;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bg{
+    background-color: #111;
+    color: white;
+    padding: 40px 40px;
+    border-radius: 3ch;
+}
+.btn{
+    background-color: white;
+    border: 3px solid darkblue; /* Thick blue outline */
+    color: darkblue; /* Text color matches outline */
+    padding: 18px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px; /* Curved corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: darkblue; /* Fill blue on hover */
+    color: white; /* Text turns white on hover */
+}
+
+.btn:hover { 
+    transform: scale(1.05); /* Slight scale up effect */
+}
+
+.btn:active {
+    transform: scale(0.95); /* Slight scale down effect when clicked */
+}
+
+/* Style for the navigation bar */
+.nav-center {
+    display: flex;
+    justify-content:space-between; /* Align items to the left and right */
+    align-items: center;
+    background-color: #f8f8f8; /* Light background color */
+    padding: 10px 20px; /* Space around the text */
+    margin: 0%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    font-family: 'comic neue'; /* Change font family */
+    font-weight:bolder; /* Change font weight */
+    color:#151e1d;
+}
